@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML CSS 3</title>
+
+    <!-- css -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+</head>
+
+<body>
+    <main class="card">
+        <div id="content">
+            <div class="account-header">
+                <div class="account-photo">
+                    <img src="https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=461&q=80"
+                        alt="Your friend profile picture">
+                </div>
+                <div class="account-detail">
+                    <p class="account-name"><a href="#">Your Friend</a> posted on your timeline</p>
+                    <p class="post-time">32 minutes ago</p>
+                </div>
+                <div class="content-option">
+                    <button class="btn"><i class="fas fa-ellipsis-v"></i></button>
+                </div>
+            </div>
+            <div class="account-post">
+                <div class="post">
+                    <p>
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptates, laboriosam totam officiis
+                        possimus aperiam autem beatae sunt amet quos molestias quibusdam tempore voluptate esse sequi
+                        suscipit at ea nulla est!
+                    </p>
+                </div>
+                <img src="https://images.unsplash.com/photo-1533757879476-8f4a3cb1ae4b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
+                    alt="Manitoulin Island Canada Lake">
+            </div>
+            <div class="interaction-post">
+                <button type="button" class="btn like">
+                    <i class="fas fa-heart"></i> Like (5)
+                </button>
+                <button type="button" class="btn share">
+                    <i class="fas fa-share-alt"></i> Share (21)
+                </button>
+            </div>
+        </div>
+        <aside id="comment">
+            <div id="content">
+                <section class="comment-count">
+                    1 Comments <i class="fas fa-chevron-down"></i>
+                </section>
+                <section class="comment-container">
+                    <div class="comment-header">
+                        <div class="comment-photo">
+                            <img src="https://images.unsplash.com/photo-1553514029-1318c9127859?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=464&q=80"
+                                alt="Your friend profile picture on comment bar">
+                        </div>
+                        <div class="comment-detail">
+                            <p class="comment-name">Cahya Maharani <span class="comment-time">2 Februari, 2022</span>
+                            </p>
+                            <p class="comment-text">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat commodi, dolorem dolore
+                                exercitationem consequatur doloribus autem vero laboriosam facere architecto ipsum,
+                                distinctio eveniet impedit, sapiente illo laudantium voluptatibus blanditiis non?
+                            </p>
+                            <div class="comment-interaction">
+                                <button class="btn reply">
+                                    Reply
+                                </button>
+                                <button class="btn flag">
+                                    <i class="far fa-flag"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="comment-form">
+                        <div class="comment-photo">
+                            <img src="./default_user.jpg" alt="Your friend profile picture on comment bar">
+                        </div>
+                        <div class="comment-field">
+                            <textarea name="comment-field" cols="30" rows="5">Add a comment..</textarea>
+                            <input type="submit" value="Post Comment" class="comment-submit">
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </aside>
+    </main>
+</body>
+
+</html>
